@@ -1,0 +1,50 @@
+
+
+#playing-cards { 
+  border: 2px solid red; 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center;
+  width: 60%;
+  /* background: magenta;  */
+} 
+
+.card { 
+  border: 0.5px solid black; 
+  width: 200px; 
+  height: 300px; 
+  display: flex; 
+  justify-content: space-evenly;
+  border-radius: 7px;
+  padding: 4px; 
+  margin: 10px auto;
+} 
+
+.left { 
+  align-self: flex-start; 
+  display: flex;
+  flex-direction: column;
+}  
+
+.middle { 
+  align-self: center;
+  display: flex;
+  flex-direction: column; 
+  transform: scale(4);
+}
+
+.right { 
+  align-self: flex-end; 
+  display: flex;
+  flex-direction: column;
+  transform: rotate(180deg);
+}
+
+.card:nth-child(n+2) {
+  color: red;
+}
+
+.middle span:nth-child(n+3) {
+  transform: rotate(180deg);
+}
