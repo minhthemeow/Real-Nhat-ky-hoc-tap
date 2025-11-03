@@ -11,3 +11,7 @@
 8. The Box Model - certified
 9. Colors - certified
 10. Flexbox - certified
+11. Typography - certified
+## Javascript
+1. Code Editors - certified
+2. Variables and Strings - certified
