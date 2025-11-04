@@ -15,3 +15,4 @@
 ## Javascript
 1. Code Editors - certified
 2. Variables and Strings - certified
+3. Booleans and Numbers - certified
