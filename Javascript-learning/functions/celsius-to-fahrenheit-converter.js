@@ -1,0 +1,1 @@
+let convertCtoF = celsiusTemp => celsiusTemp * (9/5) + 32;

@@ -1,4 +1,4 @@
-# NHAT KY HOC TAP
+# NHAT KY HOC TAP (LEARNING DIARY)
 ## HTML 5 - certified
 ## CSS
 1. Computer Basics - certified
@@ -16,3 +16,4 @@
 1. Code Editors - certified
 2. Variables and Strings - certified
 3. Booleans and Numbers - certified
+4. Functions - certified
