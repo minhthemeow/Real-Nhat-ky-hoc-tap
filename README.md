@@ -12,6 +12,7 @@
 9. Colors - certified
 10. Flexbox - certified
 11. Typography - certified
+12. Accessibility - certified
 ## Javascript
 1. Code Editors - certified
 2. Variables and Strings - certified
