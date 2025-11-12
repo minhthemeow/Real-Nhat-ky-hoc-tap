@@ -13,8 +13,11 @@
 10. Flexbox - certified
 11. Typography - certified
 12. Accessibility - certified
+13. Positioning - certified
 ## Javascript
 1. Code Editors - certified
 2. Variables and Strings - certified
 3. Booleans and Numbers - certified
 4. Functions - certified
+5. Arrays - certified
+6. Objects - certified
