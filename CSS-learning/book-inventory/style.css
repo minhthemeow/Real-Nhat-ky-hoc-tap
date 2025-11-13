@@ -1,0 +1,62 @@
+tr[class="read"] {
+    background-image: linear-gradient(90deg, yellow, purple);
+}
+
+tr[class="to-read"] {
+    background-image: linear-gradient(90deg, coral, teal);
+}
+
+tr[class="in-progress"] {
+    background-image: linear-gradient(90deg, pink, green);
+}
+
+span {
+    display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  background-image: linear-gradient(in oklab, white, red);
+  border: 0.1rem outset pink; 
+  border-radius: 12px;
+}
+
+tr[class="read"] span[class="status"] {
+  background-image: linear-gradient(in oklab, white, green);
+  border: 0.1rem outset pink; 
+  border-radius: 12px;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  background-image: linear-gradient(in oklab, white, orange);
+  border: 0.1rem outset pink; 
+  border-radius: 12px;
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 25px;
+  width: 6rem;
+  padding: 2px;
+  margin: 4px;
+}
+
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  background-color: lightgray;
+}
+
+span[class~="three"] > span {
+  background-image: linear-gradient(90deg, coral, teal);
+}
+
+span[class~="two"] > span:nth-child(-n+2) {
+  background-image: linear-gradient(90deg, coral, teal);
+}
+
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(90deg, coral, teal);
+}
+

@@ -14,6 +14,7 @@
 11. Typography - certified
 12. Accessibility - certified
 13. Positioning - certified
+14. Attribute Selectors - certified
 ## Javascript
 1. Code Editors - certified
 2. Variables and Strings - certified
