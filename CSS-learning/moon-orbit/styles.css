@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #0b1d3a;
 }
 
 .space {
@@ -16,7 +17,7 @@ body {
 
 .earth {
   position: absolute;
-  background: radial-gradient(circle at 30% 30%, #5cc0ff, #1a75bb);
+  background: radial-gradient(circle at 30% 30%, #5cc0ff, #1a75bb, #00e200);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -33,9 +34,9 @@ body {
   top: 50%;
   left: 50%;
   border-radius: 50%;
-  transform: translate(-25%, -25%);
-  background-color: gray;
-  /* animation-name: orbit; */
+  transform: translate(-50%, -50%);
+  /* background-color: gray; */
+  animation-name: orbit;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -51,14 +52,14 @@ body {
   top: 0;
   border-radius: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
 @keyframes orbit {
-  from {
+  0% {
     transform: rotate(0deg) translate(-50%, -50%)
   }
-  to {
+  100% {
     transform: rotate(360deg) translate(-50%, -50%)
   }
 }

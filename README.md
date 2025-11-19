@@ -18,6 +18,7 @@
 15. Responsive Design - certified
 16. Variables - certified
 17. Grid - certified
+18. Animations - certified
 ## Javascript
 1. Code Editors - certified
 2. Variables and Strings - certified
