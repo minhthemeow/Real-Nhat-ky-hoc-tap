@@ -15,6 +15,9 @@
 12. Accessibility - certified
 13. Positioning - certified
 14. Attribute Selectors - certified
+15. Responsive Design - certified
+16. Variables - certified
+17. Grid - certified
 ## Javascript
 1. Code Editors - certified
 2. Variables and Strings - certified
