@@ -1,29 +1,54 @@
 let inventory = []
 
 const findProductIndex = productName => {
-  let hasProduct = false
   let productIndex = -1
-  for (obj of inventory) {
+  for (let obj of inventory) {
     if (obj.name == productName.toLowerCase()) {
-      hasProduct = true
       productIndex = inventory.indexOf(obj)
       break;
     }
   }
+  return productIndex
 }
 
 const addProduct = product => {
-  if (findProductIndex) {
-    inventory[findProductIndex].quantity += product.quantity
-    console.log(product.name + " " + inventory[findProductIndex].quantity)
+  let productPosition = findProductIndex(product.name)
+  if (productPosition >= 0) {
+    inventory[productPosition].quantity += product.quantity
+    console.log(product.name.toLowerCase() + " quantity updated");
   } else {
+    product.name = product.name.toLowerCase()
     inventory.push(product)
     console.log(product.name + " added to inventory")
   }
 }
 
 const removeProduct = (productName, quantity) => {
-  const thisProduct = findProductIndex(productName)
+  const thisProductIndex = findProductIndex(productName)
+  if (thisProductIndex === -1) {
+    console.log(`${productName.toLowerCase()} not found`)
+    return 0;
+  }
+  const thisProduct = inventory[thisProductIndex]
+  if (thisProduct.quantity < quantity) {
+    console.log(`Not enough ${productName.toLowerCase()} available, remaining pieces: ${thisProduct.quantity}`)
+    return 0;
+  } else {
+    thisProduct.quantity -= quantity
+    if (thisProduct.quantity == 0) {
+    inventory.splice(thisProductIndex, 1)
+    } 
+  console.log(`Remaining ${productName.toLowerCase()} pieces: ${thisProduct.quantity}`)
+  return 0;
+  
+  }
+  
 }
+addProduct({name: "FLOUR", quantity: 5})
+addProduct({name: "FLOUR", quantity: 5})
+removeProduct("FLOUR", 5)
+removeProduct("FLOUR", 5)
+removeProduct("FLOUR", 5)
+console.log(inventory)
 
 
