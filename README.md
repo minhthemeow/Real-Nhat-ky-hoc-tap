@@ -26,3 +26,5 @@
 4. Functions - certified
 5. Arrays - certified
 6. Objects - certified
+7. Loops - certified
+8. JavaScript Fundamentals Review - certified
