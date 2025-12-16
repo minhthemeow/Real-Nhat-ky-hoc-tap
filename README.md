@@ -28,3 +28,4 @@
 6. Objects - certified
 7. Loops - certified
 8. JavaScript Fundamentals Review - certified
+9. Higher Order Functions and Callbacks - certified
