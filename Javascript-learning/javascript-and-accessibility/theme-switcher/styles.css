@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.theme-dark {
+  --bg-color: #111111;
+  --text-color: #f1f1f1;
+}
+
+body.theme-magenta {
+  --bg-color: magenta;
+  --text-color: yellow;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
