@@ -29,3 +29,7 @@
 7. Loops - certified
 8. JavaScript Fundamentals Review - certified
 9. Higher Order Functions and Callbacks - certified
+10. DOM Manipulation and Events - certified
+11. JavaScript and Accessibility - certified
+12. Debugging - certified
+13. Basic Regex - certified
