@@ -33,3 +33,5 @@
 11. JavaScript and Accessibility - certified
 12. Debugging - certified
 13. Basic Regex - certified
+14. Form Validation - certified
+15. Dates - certified
