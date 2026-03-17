@@ -35,4 +35,5 @@
 13. Basic Regex - certified
 14. Form Validation - certified
 15. Dates - certified
+16. Audio and Video Events - certified
 17. Maps and Sets - certified

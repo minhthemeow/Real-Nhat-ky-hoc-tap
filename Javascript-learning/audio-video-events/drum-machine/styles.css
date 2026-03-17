@@ -1,0 +1,55 @@
+body {  
+  background-color: cyan;  
+}  
+
+#drum-machine {  
+  width: 70%;  
+  height: 450px;  
+  border: 1px solid red;  
+  margin: 0 auto;  
+  background-color: tomato;  
+  border-radius: 20px;  
+}  
+
+#pad-bank {  
+  margin-top: 20px;  
+  /* border: 1px solid black; */ 
+  height: 50%; 
+  width: 100%;  
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  justify-items: center; 
+  gap: 5px; 
+}  
+
+.drum-pad:hover { 
+  cursor: pointer; 
+} 
+
+.drum-pad { 
+  width: 70px; 
+  height: 70px; 
+  border-radius: 13px; 
+} 
+
+#power-toggle { 
+  display: flex; 
+  width: 80%; 
+  margin: 0 auto; 
+  justify-content: space-between;  
+} 
+
+#power-toggle p { 
+  width: 85%; 
+} 
+
+#display { 
+  width: 80%; 
+  height: 7%; 
+  background-color: white; 
+  margin: 0 auto; 
+  border-radius: 13px; 
+  color: tomato;
+  text-align: center;
+  padding-top: 10px;
+} 
