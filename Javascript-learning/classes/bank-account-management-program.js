@@ -37,9 +37,9 @@ class BankAccount {
   listAllDeposits() {
     const result = "Deposits: ";
     const depositArr = [];
-    for (let transac of this.transactions) {
-      if (transac.type == "deposit") {
-        depositArr.push(transac.amount);
+    for (let transact of this.transactions) {
+      if (transact.type == "deposit") {
+        depositArr.push(transact.amount);
         depositArr.push(",");
       }
     }
@@ -55,9 +55,9 @@ class BankAccount {
   listAllWithdrawals() {
     const result = "Withdrawals: ";
     const withdrawArr = [];
-    for (let transac of this.transactions) {
-      if (transac.type == "withdraw") {
-        withdrawArr.push(transac.amount);
+    for (let transact of this.transactions) {
+      if (transact.type == "withdraw") {
+        withdrawArr.push(transact.amount);
         withdrawArr.push(",");
       }
     }
