@@ -37,3 +37,5 @@
 15. Dates - certified
 16. Audio and Video Events - certified
 17. Maps and Sets - certified
+18. localStorage and CRUD Operations - certified
+19. Classes - certified
