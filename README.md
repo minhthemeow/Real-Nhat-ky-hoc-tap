@@ -40,3 +40,4 @@
 18. localStorage and CRUD Operations - certified
 19. Classes - certified
 20. Recursion - certified
+21. Data Structures - certified
