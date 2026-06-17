@@ -10,7 +10,7 @@
 7. Styling Forms - certified
 8. The Box Model - certified
 9. Colors - certified
-10. Flexbox - certified
+10. FlexBox - certified
 11. Typography - certified
 12. Accessibility - certified
 13. Positioning - certified
@@ -41,3 +41,8 @@
 19. Classes - certified
 20. Recursion - certified
 21. Data Structures - certified
+22. Algorithms - certified
+23. Graphs and Trees
+24. Dynamic Programming
+25. Functional Programming
+26. Asynchronous JavaScript
