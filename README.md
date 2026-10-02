@@ -42,7 +42,7 @@
 20. Recursion - certified
 21. Data Structures - certified
 22. Algorithms - certified
-23. Graphs and Trees
-24. Dynamic Programming
+23. Graphs and Trees - certified
+24. Dynamic Programming - certified
 25. Functional Programming
 26. Asynchronous JavaScript
