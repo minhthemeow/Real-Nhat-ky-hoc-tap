@@ -1,6 +1,6 @@
 # NHAT KY HOC TAP (LEARNING DIARY)
-## HTML 5 - certified
-## CSS
+## HTML 5 - Certified
+## CSS - Certified
 1. Computer Basics - certified
 2. Basic CSS - certified
 3. Design - certified
@@ -19,7 +19,7 @@
 16. Variables - certified
 17. Grid - certified
 18. Animations - certified
-## Javascript
+## Javascript - Certified
 1. Code Editors - certified
 2. Variables and Strings - certified
 3. Booleans and Numbers - certified
@@ -44,5 +44,5 @@
 22. Algorithms - certified
 23. Graphs and Trees - certified
 24. Dynamic Programming - certified
-25. Functional Programming
-26. Asynchronous JavaScript
+25. Functional Programming - certified
+26. Asynchronous JavaScript - certified
